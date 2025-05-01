@@ -176,7 +176,7 @@ def set_background(image_path):
         st.warning(f"Error setting background: {e}")
 
 def main():
-    image_path = "https://raw.githubusercontent.com/sakesrinivas/you-downloader/refs/heads/main/background.png"
+    image_path = "https://raw.githubusercontent.com/srinivassake/you-downloader/refs/heads/main/background.png"
     set_background(image_path)
     st.title("YouDownloader !")
     
